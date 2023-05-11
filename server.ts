@@ -10,7 +10,7 @@ import userRouter from "./Routes/usersRoute";
 const app: Application = express();
 dotEnv.config({ path: "./.env" });
 
-const port: number | undefined | string = process.env.PORT || 9999;
+const port: number | undefined | string = process.env.PORT || 5555;
 const databaseUrl: string | undefined = process.env.MONGO_DB_CLOUD_URL;
 const databaseName: string | undefined = process.env.DATABASE_NAME;
 
