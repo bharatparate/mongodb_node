@@ -19,7 +19,7 @@ const databaseName: string | undefined = process.env.DATABASE_NAME;
 //Get Data
 app.get("/", (request: Request, response: Response) => {
   response.status(200);
-  response.json({
+  response.json({ 
     msg: "Welcome to Express JS",
   });
 });
